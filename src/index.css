@@ -1,0 +1,10 @@
+.App {
+  background-color: #988686;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
