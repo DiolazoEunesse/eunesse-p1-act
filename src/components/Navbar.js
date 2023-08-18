@@ -2,12 +2,16 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
+import { BiLogoMagento } from 'react-icons/bi';
 
 const NavbarComponent = ()=> {
   return(
     <Navbar expand="lg" className='px-5 py-4'>
       <Container>
-        <Navbar.Brand href="#home" className='fw-semibold'><h4 className='fw-bold'>Eunesse Diolazo</h4></Navbar.Brand>
+        <Navbar.Brand href="#home" className='fw-semibold d-flex align-items-center'>
+          <BiLogoMagento />
+          Eunesse Diolazo
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
       </Container>
       <Navbar.Collapse id="basic-navbar-nav">

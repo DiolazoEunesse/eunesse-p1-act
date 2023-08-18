@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel, Image, Container,  Row, Col } from 'react-bootstrap';
+import { Image, Container,  Row, Col } from 'react-bootstrap';
 
 
 const Work = () => {
@@ -18,14 +18,14 @@ const Work = () => {
                 style={{minWidth:300}}/>
               </Col>
               <Col className='d-flex flex-column justify-content-center'>
-                <h4 className='display-3 fw-bold text-light'>UPang Updates</h4>
+                <h4 className='display-3 fw-bold text-center'>UPang Updates</h4>
                 <p className='p-2 border border-2 bg-dark text-light rounded'>Updates the latest news in PHINMA UPang</p>
               </Col>
             </Row>
             <hr/>
             <Row>
               <Col className='d-flex flex-column justify-content-center'>
-                <h4 className='display-3 fw-bold text-light'>Copal</h4>
+                <h4 className='display-3 fw-bold text-center'>Copal</h4>
                 <p className='p-2 border border-2 bg-dark text-light rounded'>Match and chat with the same interests</p>
               </Col>
               <Col>
@@ -40,7 +40,7 @@ const Work = () => {
                 style={{minWidth:300}}/>
               </Col>
               <Col className='d-flex flex-column justify-content-center'>
-                <h4 className='display-3 fw-bold text-light'>CITE Events</h4>
+                <h4 className='display-3 fw-bold text-center'>CITE Events</h4>
                 <p className='p-2 border border-2 bg-dark text-light rounded'>Showcase latest events happen in CITE</p>
               </Col>
             </Row>

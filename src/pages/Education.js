@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, ListGroup} from 'react-bootstrap';
 
-
 const Education = () => {
   return (
     <>

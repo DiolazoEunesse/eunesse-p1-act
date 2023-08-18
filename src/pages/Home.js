@@ -10,7 +10,7 @@ const Home = () => {
       <Container className='d-flex justify-content-center align-items-center py-5' >
         <Row className='hero gap-5'>
           <Col className='d-flex justify-content-center align-items-center'>
-            <Image src='/profile.jpg' className='w-100 h-full bg-black border border-3'style={{minWidth:250,height:400, objectFit: 'cover'}} rounded fluid/>
+            <Image src='/profile.jpg' className='w-100 h-full bg-black'style={{minWidth:250,height:400, objectFit: 'cover'}} rounded fluid/>
           </Col>
           <Col>
             <h1 className='display-3 fw-bold'>Eunesse Diolazo</h1>
